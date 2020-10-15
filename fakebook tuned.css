@@ -1,0 +1,50 @@
+body {
+    max-width: 600px;
+    margin: auto;
+    padding-left: 50px;
+    padding-top: 30px;
+    border: Dodgerblue 3px solid;
+    }
+    img {
+border-radius: 100%; // full circular image
+}
+img:hover {
+    border: dodgerblue 5px solid;
+    }
+h1{
+  font-family: 'Roboto', sans-serif;
+  color: DodgerBlue;
+  text-align: left;
+  border: 2px DodgerBlue;
+  border-radius: 5px;
+}
+p{
+  font: 15px Arial, sans-serif;
+}
+
+h2 {
+  font: italic small-caps normal 13px/150% 'Kalam', cursive;
+  text-align: left;
+}
+p {
+    font-family: "Calibri;font-size: 20px";
+    color: black;
+}
+p.one {
+  border-style: solid;
+  border-color: DodgerBlue;
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+button {
+  border: none;
+  color: DodgerBlue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
