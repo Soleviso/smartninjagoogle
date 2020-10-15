@@ -1,50 +1,81 @@
-body {
-    max-width: 600px;
-    margin: auto;
-    padding-left: 50px;
-    padding-top: 30px;
-    border: Dodgerblue 3px solid;
-    }
-    img {
-border-radius: 100%; // full circular image
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
 }
-img:hover {
-    border: dodgerblue 5px solid;
-    }
-h1{
-  font-family: 'Roboto', sans-serif;
-  color: DodgerBlue;
-  text-align: left;
-  border: 2px DodgerBlue;
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.flex-container {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-container > div1 {
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.flex-container > div2 {
+  background-color: white;
+  margin: 5px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px;
+  font-size: 20px;
+}
+.flex-container > div3 {
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+.flex-container > div4 {
+  background-color: #E0FFFF;
+  border: 2px solid #4169E1;
   border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  width: 400px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
 }
-p{
-  font: 15px Arial, sans-serif;
+.flex-container > div5 {
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+    font-weight: bold;
 }
-
-h2 {
-  font: italic small-caps normal 13px/150% 'Kalam', cursive;
-  text-align: left;
+.flex-container2 {
+  display: flex;
+  justify-content: flex-start;
 }
-p {
-    font-family: "Calibri;font-size: 20px";
-    color: black;
+.flex-container2 > div6 {
+  margin: 5px;
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  width: 200px;
+  color: #4169E1;
 }
-p.one {
-  border-style: solid;
-  border-color: DodgerBlue;
-  border-radius: 50%;
-  width: 10em;
-  height: 10em;
-}
-button {
-  border: none;
-  color: DodgerBlue;
-  padding: 15px 32px;
+.flex-container2 > div7 {
+background-color: #4169E1;
+  border: 2px solid #4169E1;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  width: 100px;
+  margin: 5px;
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
 }
